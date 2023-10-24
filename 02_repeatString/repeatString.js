@@ -1,6 +1,8 @@
-const repeatString = function() {
+function repeatString(str, count) {
+    if (count < 0) {
+        return 'ERROR';
+    }
+    return Array(count).fill(str).join('');
+}
 
-};
-
-// Do not edit below this line
 module.exports = repeatString;
