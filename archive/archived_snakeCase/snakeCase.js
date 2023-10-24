@@ -1,6 +1,6 @@
-const snakeCase = function() {
+const snakeCase = function () {
 
-};
+}
 
 // Do not edit below this line
-module.exports = snakeCase;
+module.exports = snakeCase

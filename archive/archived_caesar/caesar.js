@@ -1,6 +1,6 @@
-const caesar = function() {
+const caesar = function () {
 
-};
+}
 
 // Do not edit below this line
-module.exports = caesar;
+module.exports = caesar

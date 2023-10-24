@@ -4,59 +4,59 @@ describe('findTheOldest', () => {
   test('finds the person with the greatest age!', () => {
     const people = [
       {
-        name: "Carly",
+        name: 'Carly',
         yearOfBirth: 1942,
-        yearOfDeath: 1970,
+        yearOfDeath: 1970
       },
       {
-        name: "Ray",
+        name: 'Ray',
         yearOfBirth: 1962,
-        yearOfDeath: 2011,
+        yearOfDeath: 2011
       },
       {
-        name: "Jane",
+        name: 'Jane',
         yearOfBirth: 1912,
-        yearOfDeath: 1941,
-      },
+        yearOfDeath: 1941
+      }
     ]
-    expect(findTheOldest(people).name).toBe('Ray');
-  });
+    expect(findTheOldest(people).name).toBe('Ray')
+  })
   test.skip('finds the person with the greatest age if someone is still living', () => {
     const people = [
       {
-        name: "Carly",
-        yearOfBirth: 2018,
+        name: 'Carly',
+        yearOfBirth: 2018
       },
       {
-        name: "Ray",
+        name: 'Ray',
         yearOfBirth: 1962,
-        yearOfDeath: 2011,
+        yearOfDeath: 2011
       },
       {
-        name: "Jane",
+        name: 'Jane',
         yearOfBirth: 1912,
-        yearOfDeath: 1941,
-      },
+        yearOfDeath: 1941
+      }
     ]
-    expect(findTheOldest(people).name).toBe('Ray');
-  });
+    expect(findTheOldest(people).name).toBe('Ray')
+  })
   test.skip('finds the person with the greatest age if the OLDEST is still living', () => {
     const people = [
       {
-        name: "Carly",
-        yearOfBirth: 1066,
+        name: 'Carly',
+        yearOfBirth: 1066
       },
       {
-        name: "Ray",
+        name: 'Ray',
         yearOfBirth: 1962,
-        yearOfDeath: 2011,
+        yearOfDeath: 2011
       },
       {
-        name: "Jane",
+        name: 'Jane',
         yearOfBirth: 1912,
-        yearOfDeath: 1941,
-      },
+        yearOfDeath: 1941
+      }
     ]
-    expect(findTheOldest(people).name).toBe('Carly');
-  });
-});
+    expect(findTheOldest(people).name).toBe('Carly')
+  })
+})
